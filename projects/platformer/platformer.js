@@ -44,15 +44,16 @@ $(function () {
     createPlatform(200, 650, 100, 20);
     createPlatform(400, 550, 100, 20);
     createPlatform(1130, 650, 100, 20);
+    createPlatform(50, 725, 100, 20)
 
-    createCollectable("steve", 1100, 200, 10, 0.5);
-    createCollectable("kennedi", 1120, 550, 10, 0.5);
-    createCollectable("database", 550, 400, 10, 0.5);
+    createCollectable("steve", 1100, 200, 20, 0.5);
+    createCollectable("kennedi", 1120, 550, 15, 0.5);
+    createCollectable("database", 550, 400, 20, 0.5);
 
     createCannon("top", 900, 1000);
     createCannon("top", 250, 1000);
     createCannon("bottom", 500, 1000);
-    createCannon("left", 205, 1000);
+    createCannon("left", 685, 0);
     
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
